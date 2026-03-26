@@ -47,6 +47,21 @@ project-root/
 ```
 
 ---
+## Why This Is an Agentic AI System
+
+This project is not a simple LLM application. It implements an **agentic architecture**, where the language model is used as one component in a multi-step decision pipeline.
+
+The agent:
+1. Receives a task (CV + job description)
+2. Uses multiple tools to gather information
+3. Decides how to proceed based on intermediate results
+4. Applies fallback strategies when necessary
+
+This mirrors real-world autonomous AI systems that:
+- orchestrate tools
+- perform conditional reasoning
+- and execute multi-step workflows.
+---
 
 ## How It Works
 
